@@ -1,7 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace StringTests
+namespace LinkedList.Tests
 {
     [TestClass]
     public class GenerateParenthesesTests

@@ -18,10 +18,10 @@ namespace NQueen
 
         private bool BackTracking(char[][] board, List<IList<string>> ret, int row, int remaining, int n)
         {
-            if (n == 0)
+            if (remaining == 0)
             {
                 ret.Add(CharArraryToString(board));
-                return true;
+                return false;
             }
 
             for (int r = row+1; r < board.Length; r++)
@@ -31,7 +31,7 @@ namespace NQueen
                     if (IsValid(board, r, c, n))
                     {
                         board[r][c] = 'Q';
-                        if (!BackTracking(board, ret, r, n - 1, n))
+                        if (!BackTracking(board, ret, r, remaining - 1, n))
                         {
                             board[r][c] = '.';                            
                         }

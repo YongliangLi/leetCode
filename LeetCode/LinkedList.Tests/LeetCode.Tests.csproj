@@ -65,6 +65,10 @@
       <Project>{e5a9b33c-5b62-4fca-b4f8-8c692a5e787d}</Project>
       <Name>GenerateParentheses</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NQueen\NQueen.csproj">
+      <Project>{60d1336d-bfaa-411f-ae32-2af0d3d85874}</Project>
+      <Name>NQueen</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

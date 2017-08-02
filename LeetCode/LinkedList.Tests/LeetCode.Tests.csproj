@@ -46,7 +46,9 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
@@ -55,8 +57,15 @@
     <Compile Include="GenerateParenthesesTests.cs" />
     <Compile Include="NQueenTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelativeRanksTests.cs" />
+    <Compile Include="LongestPalindromeTests.cs" />
+    <Compile Include="UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\202HappyNumber\202HappyNumber.csproj">
+      <Project>{8dfc00f5-de02-4e8a-a9b0-7f5d5b732f71}</Project>
+      <Name>202HappyNumber</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AddNumbers2\AddNumbers2.csproj">
       <Project>{e93de59c-c0d0-43d6-b89c-a45e47b52806}</Project>
       <Name>AddNumbers2</Name>
@@ -65,9 +74,33 @@
       <Project>{e5a9b33c-5b62-4fca-b4f8-8c692a5e787d}</Project>
       <Name>GenerateParentheses</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LengthOfLongestSubstring\LengthOfLongestSubstring.csproj">
+      <Project>{81f2b776-913a-4ec6-8b06-a9eb409040b3}</Project>
+      <Name>LengthOfLongestSubstring</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LongestPalindrome\LongestPalindrome.csproj">
+      <Project>{9edd11d4-c8ec-4f40-92be-47e9303a87eb}</Project>
+      <Name>LongestPalindrome</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyAtoi\MyAtoi.csproj">
+      <Project>{b318b2d0-5d07-480d-bf52-af46b40b0389}</Project>
+      <Name>MyAtoi</Name>
+    </ProjectReference>
     <ProjectReference Include="..\NQueen\NQueen.csproj">
       <Project>{60d1336d-bfaa-411f-ae32-2af0d3d85874}</Project>
       <Name>NQueen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Permutations\Permutations.csproj">
+      <Project>{779d1513-99db-4062-a459-47629d76f179}</Project>
+      <Name>Permutations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RelativeRanks\RelativeRanks.csproj">
+      <Project>{08b3319d-dcbf-4275-8ecf-ad09f7e58fc7}</Project>
+      <Name>RelativeRanks</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ValidParentheses\ValidParentheses.csproj">
+      <Project>{ec75a9fb-ed11-4b62-ae66-34008aa56b5c}</Project>
+      <Name>ValidParentheses</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

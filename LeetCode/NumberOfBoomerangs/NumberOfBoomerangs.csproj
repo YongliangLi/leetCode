@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{60D1336D-BFAA-411F-AE32-2AF0D3D85874}</ProjectGuid>
+    <ProjectGuid>{38B2A590-7AD2-456A-B9E5-5B11758EDEF5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NQueen</RootNamespace>
-    <AssemblyName>NQueen</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>NumberOfBoomerangs</RootNamespace>
+    <AssemblyName>NumberOfBoomerangs</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -40,11 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Solution1.cs" />
+    <Compile Include="Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Solution1a.cs" />
-    <Compile Include="Solution2.cs" />
-    <Compile Include="Solution3.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

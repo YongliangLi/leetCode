@@ -6,8 +6,8 @@
     <ProjectGuid>{0B5CF9FE-5673-4FF6-9B3D-A4B2A1B47963}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LinkedList.Tests</RootNamespace>
-    <AssemblyName>LinkedList.Tests</AssemblyName>
+    <RootNamespace>LeetCode.Tests</RootNamespace>
+    <AssemblyName>LeetCode.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -46,7 +46,9 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
+          <Private>False</Private>
+        </Reference>
       </ItemGroup>
     </Otherwise>
   </Choose>
@@ -55,6 +57,8 @@
     <Compile Include="GenerateParenthesesTests.cs" />
     <Compile Include="NQueenTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RangeAdditionIITests.cs" />
+    <Compile Include="NumberOfBoomerangsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AddNumbers2\AddNumbers2.csproj">
@@ -68,6 +72,14 @@
     <ProjectReference Include="..\NQueen\NQueen.csproj">
       <Project>{60d1336d-bfaa-411f-ae32-2af0d3d85874}</Project>
       <Name>NQueen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NumberOfBoomerangs\NumberOfBoomerangs.csproj">
+      <Project>{38b2a590-7ad2-456a-b9e5-5b11758edef5}</Project>
+      <Name>NumberOfBoomerangs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RangeAdditonII\RangeAdditonII.csproj">
+      <Project>{9bb97ac4-6027-4ec7-88b7-ca21cb5c8a11}</Project>
+      <Name>RangeAdditonII</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

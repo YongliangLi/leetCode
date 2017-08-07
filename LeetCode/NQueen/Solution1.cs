@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NQueen
 {
-    public class Solution
+    public class Solution1
     {
         public IList<IList<string>> SolveNQueens(int n)
         {

@@ -36,6 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentAssert, Version=1.0.0.11, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentAssert.1.0.0.11\lib\FluentAssert.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -61,12 +64,13 @@
     <Compile Include="NumberOfBoomerangsTests.cs" />
     <Compile Include="RelativeRanksTests.cs" />
     <Compile Include="LongestPalindromeTests.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="HappyNumberTests.cs" />
+    <Compile Include="_605CanPlaceFlowersTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\202HappyNumber\202HappyNumber.csproj">
-      <Project>{8dfc00f5-de02-4e8a-a9b0-7f5d5b732f71}</Project>
-      <Name>202HappyNumber</Name>
+    <ProjectReference Include="..\605CanPlaceFlowers\_605CanPlaceFlowers.csproj">
+      <Project>{196965af-305c-4dc8-9a59-2a762b363bd8}</Project>
+      <Name>_605CanPlaceFlowers</Name>
     </ProjectReference>
     <ProjectReference Include="..\AddNumbers2\AddNumbers2.csproj">
       <Project>{e93de59c-c0d0-43d6-b89c-a45e47b52806}</Project>
@@ -80,10 +84,6 @@
       <Project>{81f2b776-913a-4ec6-8b06-a9eb409040b3}</Project>
       <Name>LengthOfLongestSubstring</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LongestPalindrome\LongestPalindrome.csproj">
-      <Project>{9edd11d4-c8ec-4f40-92be-47e9303a87eb}</Project>
-      <Name>LongestPalindrome</Name>
-    </ProjectReference>
     <ProjectReference Include="..\MyAtoi\MyAtoi.csproj">
       <Project>{b318b2d0-5d07-480d-bf52-af46b40b0389}</Project>
       <Name>MyAtoi</Name>
@@ -95,6 +95,7 @@
     <ProjectReference Include="..\NumberOfBoomerangs\NumberOfBoomerangs.csproj">
       <Project>{38b2a590-7ad2-456a-b9e5-5b11758edef5}</Project>
       <Name>NumberOfBoomerangs</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Permutations\Permutations.csproj">
       <Project>{779d1513-99db-4062-a459-47629d76f179}</Project>
       <Name>Permutations</Name>
@@ -102,14 +103,19 @@
     <ProjectReference Include="..\RangeAdditonII\RangeAdditonII.csproj">
       <Project>{9bb97ac4-6027-4ec7-88b7-ca21cb5c8a11}</Project>
       <Name>RangeAdditonII</Name>
-    <ProjectReference Include="..\RelativeRanks\RelativeRanks.csproj">
-      <Project>{08b3319d-dcbf-4275-8ecf-ad09f7e58fc7}</Project>
-      <Name>RelativeRanks</Name>
     </ProjectReference>
     <ProjectReference Include="..\ValidParentheses\ValidParentheses.csproj">
       <Project>{ec75a9fb-ed11-4b62-ae66-34008aa56b5c}</Project>
       <Name>ValidParentheses</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FluentAssert.License.txt" />
+    <Content Include="FluentAssert.Provenance.txt" />
+    <Content Include="FluentAssert.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

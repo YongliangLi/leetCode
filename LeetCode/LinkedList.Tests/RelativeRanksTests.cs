@@ -9,11 +9,11 @@ namespace LinkedList.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            //Arrange
-            var nums = new int[] { 10, 3, 8, 9, 4 };
+            ////Arrange
+            //var nums = new int[] { 10, 3, 8, 9, 4 };
 
-            var solution = new RelativeRanks.Solution();
-            var result = solution.FindRelativeRanks(nums);
+            //var solution = new RelativeRanks.Solution();
+            //var result = solution.FindRelativeRanks(nums);
 
         }
     }

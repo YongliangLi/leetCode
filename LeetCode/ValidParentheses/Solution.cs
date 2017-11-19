@@ -9,6 +9,12 @@ namespace ValidParentheses
     public class Solution
     {
         /*
+         Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+        The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+             */
+
+        /*
          1. Dictionary initialize
          2. Stack Push, Pop, Count             
              */

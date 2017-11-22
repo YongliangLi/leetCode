@@ -68,43 +68,43 @@
     <Compile Include="_605CanPlaceFlowersTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\605CanPlaceFlowers\_605_CanPlaceFlowers.csproj">
+    <ProjectReference Include="..\_605_CanPlaceFlowers\_605_CanPlaceFlowers.csproj">
       <Project>{196965af-305c-4dc8-9a59-2a762b363bd8}</Project>
       <Name>_605_CanPlaceFlowers</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AddNumbers2\_2_AddTwoNumbers.csproj">
+    <ProjectReference Include="..\_2_AddTwoNumbers\_2_AddTwoNumbers.csproj">
       <Project>{e93de59c-c0d0-43d6-b89c-a45e47b52806}</Project>
       <Name>_2_AddTwoNumbers</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GenerateParentheses\_22_GenerateParentheses.csproj">
+    <ProjectReference Include="..\_22_GenerateParentheses\_22_GenerateParentheses.csproj">
       <Project>{e5a9b33c-5b62-4fca-b4f8-8c692a5e787d}</Project>
       <Name>_22_GenerateParentheses</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LengthOfLongestSubstring\_3_LengthOfLongestSubstring.csproj">
+    <ProjectReference Include="..\_3_LengthOfLongestSubstring\_3_LengthOfLongestSubstring.csproj">
       <Project>{81f2b776-913a-4ec6-8b06-a9eb409040b3}</Project>
       <Name>_3_LengthOfLongestSubstring</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MyAtoi\_8_MyAtoi.csproj">
+    <ProjectReference Include="..\_8_MyAtoi\_8_MyAtoi.csproj">
       <Project>{b318b2d0-5d07-480d-bf52-af46b40b0389}</Project>
       <Name>_8_MyAtoi</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NQueen\_51_NQueen.csproj">
+    <ProjectReference Include="..\_51_NQueen\_51_NQueen.csproj">
       <Project>{60d1336d-bfaa-411f-ae32-2af0d3d85874}</Project>
       <Name>_51_NQueen</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NumberOfBoomerangs\_447_NumberOfBoomerangs.csproj">
+    <ProjectReference Include="..\_447_NumberOfBoomerangs\_447_NumberOfBoomerangs.csproj">
       <Project>{38b2a590-7ad2-456a-b9e5-5b11758edef5}</Project>
       <Name>_447_NumberOfBoomerangs</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Permutations\_46_Permutations.csproj">
+    <ProjectReference Include="..\_46_Permutations\_46_Permutations.csproj">
       <Project>{779d1513-99db-4062-a459-47629d76f179}</Project>
       <Name>_46_Permutations</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RangeAdditonII\_598_RangeAdditonII.csproj">
+    <ProjectReference Include="..\_598_RangeAdditonII\_598_RangeAdditonII.csproj">
       <Project>{9bb97ac4-6027-4ec7-88b7-ca21cb5c8a11}</Project>
       <Name>_598_RangeAdditonII</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ValidParentheses\_20_ValidParentheses.csproj">
+    <ProjectReference Include="..\_20_ValidParentheses\_20_ValidParentheses.csproj">
       <Project>{ec75a9fb-ed11-4b62-ae66-34008aa56b5c}</Project>
       <Name>_20_ValidParentheses</Name>
     </ProjectReference>
